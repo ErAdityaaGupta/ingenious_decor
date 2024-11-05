@@ -12,6 +12,10 @@ module.exports = {
       width: {
         "custom-logo": "650px", 
       },
+
+      height: {
+        background: "800px",
+      }
     },
   },
   plugins: [],
