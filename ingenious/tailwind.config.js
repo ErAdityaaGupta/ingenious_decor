@@ -6,16 +6,21 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        lightcream: "#F5F3E7", 
+        lightcream: "#F5F3E7",
       },
 
       width: {
-        "custom-logo": "650px", 
+        "custom-logo": "650px",
       },
 
       height: {
         background: "800px",
-      }
+      },
+      fontFamily: {
+        montserrat: ["Montserrat", "sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
+        playfair: ["Playfair Display", "serif"],
+      },
     },
   },
   plugins: [],
