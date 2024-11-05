@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .navbar-text {
+    @apply text-4xl text-gray-800 hover:text-gray-600 ; 
+  }
+}
