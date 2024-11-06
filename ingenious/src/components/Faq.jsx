@@ -1,36 +1,3 @@
-// import React from "react";
-
-// const faqs = [
-//   {
-//     question: "What services do you offer?",
-//     answer: "We offer full-service interior design...",
-//   },
-//   {
-//     question: "How can I schedule a consultation?",
-//     answer: "You can schedule a consultation by...",
-//   },
-//   // More questions here
-// ];
-
-// const FAQ = () => {
-//   return (
-//     <div className="p-6">
-//       <h2 className="text-2xl font-semibold mb-4">
-//         Frequently Asked Questions
-//       </h2>
-//       {faqs.map((faq, index) => (
-//         <div key={index} className="mb-2">
-//           <h3 className="font-bold text-lg">{faq.question}</h3>
-//           <p className="text-gray-600">{faq.answer}</p>
-//         </div>
-//       ))}
-//     </div>
-//   );
-// };
-
-// export default FAQ;
-
-
 import React, { useState } from "react";
 
 const FAQ = () => {
@@ -57,11 +24,6 @@ const FAQ = () => {
       answer:
         "The design & delivery process varies depending on the scope of the project and the services required. Typically, the design process takes between 4-6 weeks from initial consultation to final approval of client. Delivery depends on size of unit. Typically a villa (3500+ square feet) takes 5 - 7 months.",
     },
-    // {
-    //   question: "What is the process to get started?",
-    //   answer:
-    //     "You can get started by booking a consultation with us. We’ll discuss your vision, budget, and timeline during the initial meeting.",
-    // },
   ];
 
   return (
