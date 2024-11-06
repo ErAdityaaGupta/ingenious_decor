@@ -15,6 +15,7 @@ module.exports = {
 
       height: {
         background: "800px",
+        images: "400px",
       },
       fontFamily: {
         montserrat: ["Montserrat", "sans-serif"],

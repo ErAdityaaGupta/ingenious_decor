@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroSection from '../components/HeroSection'
 import AboutUs from '../components/AboutUs'
+import Images from '../components/Images'
 
 
 export const Home = () => {
@@ -8,9 +9,7 @@ export const Home = () => {
     <>
       <HeroSection></HeroSection>
       <AboutUs></AboutUs>
-      <div>
-        Random Images
-      </div>
+      <Images></Images>
       
     </>
   )
