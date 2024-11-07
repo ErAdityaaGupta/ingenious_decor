@@ -10,7 +10,8 @@ const Navbar = () => {
         <img
           src={logo}
           alt="Company Logo"
-          className="h-36 w-custom-logo mr-3"
+          className="h-16 w-custom-logo mr-3"
+          // className="h-28 w-custom-logo2 mr-3"
         />
       </div>
 
@@ -32,7 +33,7 @@ const Navbar = () => {
           </Link>
         </li>
         <li>
-          <Link to="/services" className="navbar-text">
+          <Link to="/contact" className="navbar-text">
             Contact Us
           </Link>
         </li>

@@ -10,7 +10,8 @@ module.exports = {
       },
 
       width: {
-        "custom-logo": "650px",
+        "custom-logo": "300px",
+        "custom-logo2": "550px"
       },
 
       height: {
