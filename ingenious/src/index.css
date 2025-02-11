@@ -1,4 +1,4 @@
-@tailwind base;
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -6,5 +6,51 @@
 @layer components {
   .navbar-text {
     @apply text-3xl text-gray-800 hover:text-gray-600 ; 
+  }
+} */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbar-text {
+    @apply text-2xl md:text-3xl text-gray-800 hover:text-gray-600; 
+  }
+
+  /* Responsive text scaling */
+  .heading {
+    @apply text-2xl md:text-4xl font-bold text-center;
+  }
+
+  /* Responsive container for sections */
+  .section-container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Responsive button styles */
+  .btn-primary {
+    @apply px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition duration-300;
+  }
+
+  /* Image responsiveness */
+  .responsive-img {
+    @apply w-full h-auto object-cover;
+  }
+}
+
+/* Ensure text doesn't overflow on small screens */
+h1, h2, h3, p {
+  word-wrap: break-word;
+}
+
+/* Mobile-specific tweaks */
+@media (max-width: 768px) {
+  .navbar-text {
+    font-size: 1.5rem; /* Reduce heading size on mobile */
+  }
+
+  .heading {
+    font-size: 1.75rem;
   }
 }
